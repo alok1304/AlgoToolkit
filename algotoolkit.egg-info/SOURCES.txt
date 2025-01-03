@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+AlgoToolkit/__init__.py
+AlgoToolkit/algo.py
+algotoolkit.egg-info/PKG-INFO
+algotoolkit.egg-info/SOURCES.txt
+algotoolkit.egg-info/dependency_links.txt
+algotoolkit.egg-info/top_level.txt
+tests/test_algo.py

@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: algotoolkit
+Version: 0.1.0
+Summary: A Python package for sorting and searching algorithms.
+Author-email: Alok Kumar <alokkumarjipura9973@gmail.com>
+License: Copyright (c) 2025 ALOK KUMAR
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Project-URL: Homepage, https://github.com/alok1304/AlgoToolkit
+Project-URL: Repository, https://github.com/alok1304/AlgoToolkit
+Keywords: sorting,searching,algorithms,python,data structures
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# AlgoToolkit
+
+**A Python package for sorting and searching algorithms.**
+
+## 📦 Features
+- **Sorting Algorithms:**
+  - Bubble Sort
+- **Searching Algorithms:**
+  - Binary Search
+
+## 📚 Installation
+You can install the package using `pip` after building it or directly from source:
+
+```bash
+pip install .
+```
+
+## 🚀 Usage
+```python
+from alokpykit.algo_utils import bubble_sort, binary_search
+
+# Sorting Example
+arr = [5, 2, 9, 1]
+sorted_arr = bubble_sort(arr)
+print("Sorted Array:", sorted_arr)
+
+# Searching Example
+target = 2
+index = binary_search(sorted_arr, target)
+print(f"Element found at index {index}")
+```
+
+## 🧪 Running Tests
+Ensure you have `pytest` installed:
+
+```bash
+pip install pytest
+pytest tests/
+```
+
+## 📦 Project Structure
+```plaintext
+algotoolkit/
+├── alokpykit/
+│   ├── __init__.py
+│   └── algo_utils.py
+├── tests/
+│   └── test_algo_utils.py
+├── pyproject.toml
+├── README.md
+├── LICENSE
+```
+
+## 📄 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🤝 Contributing
+Contributions are welcome! Please submit a pull request with your changes.
+
+## 🌟 Author
+Developed by **Alok Kumar**.
+

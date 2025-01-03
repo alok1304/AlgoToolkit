@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "algotoolkit"
+version = "0.1.0"
+description = "A Python package for sorting and searching algorithms."
+authors = [
+    {name = "Alok Kumar", email = "alokkumarjipura9973@gmail.com"}
+]
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.6"
+keywords = ["sorting", "searching", "algorithms", "python", "data structures"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/alok1304/AlgoToolkit"
+Repository = "https://github.com/alok1304/AlgoToolkit"
+
+[tool.setuptools]
+packages = ["AlgoToolkit"]
