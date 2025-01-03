@@ -5,8 +5,13 @@
 ## 📦 Features
 - **Sorting Algorithms:**
   - Bubble Sort
+  - Merge Sort
+  - Selection Sort
+  - Quick Sort
+  - Insertion Sort
 - **Searching Algorithms:**
   - Binary Search
+  - Linear Search
 
 ## 📚 Installation
 You can install the package using `pip` after building it or directly from source:
