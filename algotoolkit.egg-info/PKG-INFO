@@ -27,8 +27,13 @@ License-File: LICENSE
 ## 📦 Features
 - **Sorting Algorithms:**
   - Bubble Sort
+  - Merge Sort
+  - Selection Sort
+  - Quick Sort
+  - Insertion Sort
 - **Searching Algorithms:**
   - Binary Search
+  - Linear Search
 
 ## 📚 Installation
 You can install the package using `pip` after building it or directly from source:
@@ -62,15 +67,16 @@ pytest tests/
 
 ## 📦 Project Structure
 ```plaintext
-algotoolkit/
-├── alokpykit/
+AlgoToolkit/
+├── AlgoToolkit/
 │   ├── __init__.py
-│   └── algo_utils.py
+│   └── algo.py
 ├── tests/
-│   └── test_algo_utils.py
+│   └── test_algo.py
 ├── pyproject.toml
 ├── README.md
 ├── LICENSE
+├── requirements.txt
 ```
 
 ## 📄 License
