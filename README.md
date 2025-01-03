@@ -40,15 +40,16 @@ pytest tests/
 
 ## 📦 Project Structure
 ```plaintext
-algotoolkit/
-├── alokpykit/
+AlgoToolkit/
+├── AlgoToolkit/
 │   ├── __init__.py
-│   └── algo_utils.py
+│   └── algo.py
 ├── tests/
-│   └── test_algo_utils.py
+│   └── test_algo.py
 ├── pyproject.toml
 ├── README.md
 ├── LICENSE
+├── requirements.txt
 ```
 
 ## 📄 License
