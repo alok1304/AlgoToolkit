@@ -38,7 +38,7 @@ print(f"Element found at index {index}")
 >>> from AlgoToolkit import algo
 >>> algo.bubble_sort([3,7,1,2,5])
 [1, 2, 3, 5, 7]
->>> algo_utils.binary_search([1,3,5,7,9],7)
+>>> algo.binary_search([1,3,5,7,9],7)
 3
 ```
 
