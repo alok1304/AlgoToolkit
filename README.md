@@ -33,6 +33,13 @@ print("Sorted Array:", sorted_arr)
 target = 2
 index = binary_search(sorted_arr, target)
 print(f"Element found at index {index}")
+
+# Example using shell
+>>> from AlgoToolkit import algo
+>>> algo.bubble_sort([3,7,1,2,5])
+[1, 2, 3, 5, 7]
+>>> algo_utils.binary_search([1,3,5,7,9],7)
+3
 ```
 
 ## 🧪 Running Tests
