@@ -22,7 +22,7 @@ pip install .
 
 ## 🚀 Usage
 ```python
-from alokpykit.algo_utils import bubble_sort, binary_search
+from AlgoToolkit.algo import bubble_sort, binary_search
 
 # Sorting Example
 arr = [5, 2, 9, 1]
