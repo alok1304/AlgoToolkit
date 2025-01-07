@@ -17,6 +17,8 @@
 You can install the package using `pip` after building it or directly from source:
 
 ```bash
+git clone https://github.com/alok1304/AlgoToolkit.git
+cd AlgoToolkit
 pip install .
 ```
 
