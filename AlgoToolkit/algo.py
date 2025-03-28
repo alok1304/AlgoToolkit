@@ -1,3 +1,5 @@
+import heapq
+
 # -------------------- Sorting Algorithms --------------------
 
 def bubble_sort(arr):
@@ -85,3 +87,35 @@ def linear_search(arr, target):
         if arr[i] == target:
             return i
     return -1
+
+# -------------------- Graph Algorithms --------------------
+def dijkstra(graph, start):
+    """Dijkstra's Algorithm to find shortest paths from start node."""
+    pq = [(0, start)]
+    distances = {node: float('inf') for node in graph}
+    distances[start] = 0
+    previous = {node: None for node in graph}
+
+    while pq:
+        current_distance, current_node = heapq.heappop(pq)
+
+        if current_distance > distances[current_node]:
+            continue
+
+        for neighbor, weight in graph[current_node].items():
+            distance = current_distance + weight
+            if distance < distances[neighbor]:
+                distances[neighbor] = distance
+                previous[neighbor] = current_node
+                heapq.heappush(pq, (distance, neighbor))
+
+    return distances, previous
+
+graph = {
+    'A': {'B': 4, 'C': 2},
+    'B': {'A': 4, 'C': 5, 'D': 10},
+    'C': {'A': 2, 'B': 5, 'D': 3},
+    'D': {'B': 10, 'C': 3}
+}
+
+print(dijkstra(graph, 'A'))
