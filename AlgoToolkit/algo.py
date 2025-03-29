@@ -118,4 +118,3 @@ graph = {
     'D': {'B': 10, 'C': 3}
 }
 
-print(dijkstra(graph, 'A'))

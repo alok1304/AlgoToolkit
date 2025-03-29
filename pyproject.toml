@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "algotoolkit"
-version = "0.1.3"
+version = "2.0.1"
 description = "A Python package for sorting and searching algorithms."
 authors = [
     {name = "Alok Kumar", email = "alokkumarjipura9973@gmail.com"}
