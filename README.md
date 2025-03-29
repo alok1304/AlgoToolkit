@@ -13,7 +13,7 @@
   - Binary Search
   - Linear Search
 - **Dijkstra's Algorithm:**
-  - Finding shortest path
+  - Finding the shortest path
 
 ## 📚 Installation
 You can install the package using `pip` after building it or directly from source:
