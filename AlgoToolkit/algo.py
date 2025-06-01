@@ -2,14 +2,16 @@ import heapq
 
 # -------------------- Sorting Algorithms --------------------
 
+
 def bubble_sort(arr):
     """Bubble Sort algorithm to sort a list."""
     n = len(arr)
     for i in range(n):
-        for j in range(0, n-i-1):
-            if arr[j] > arr[j+1]:
-                arr[j], arr[j+1] = arr[j+1], arr[j]
+        for j in range(0, n - i - 1):
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
     return arr
+
 
 def merge_sort(arr):
     """Merge Sort algorithm."""
@@ -19,6 +21,7 @@ def merge_sort(arr):
     left = merge_sort(arr[:mid])
     right = merge_sort(arr[mid:])
     return merge(left, right)
+
 
 def merge(left, right):
     """Helper function for merge_sort."""
@@ -35,6 +38,7 @@ def merge(left, right):
     result.extend(right[j:])
     return result
 
+
 def quick_sort(arr):
     """Quick Sort algorithm."""
     if len(arr) <= 1:
@@ -44,6 +48,7 @@ def quick_sort(arr):
     middle = [x for x in arr if x == pivot]
     right = [x for x in arr if x > pivot]
     return quick_sort(left) + middle + quick_sort(right)
+
 
 def insertion_sort(arr):
     """Insertion Sort algorithm."""
@@ -56,6 +61,7 @@ def insertion_sort(arr):
         arr[j + 1] = key
     return arr
 
+
 def selection_sort(arr):
     """Selection Sort algorithm."""
     for i in range(len(arr)):
@@ -67,6 +73,7 @@ def selection_sort(arr):
     return arr
 
 # -------------------- Searching Algorithms --------------------
+
 
 def binary_search(arr, target):
     """Binary Search algorithm."""
@@ -81,6 +88,7 @@ def binary_search(arr, target):
             right = mid - 1
     return -1
 
+
 def linear_search(arr, target):
     """Linear Search algorithm."""
     for i in range(len(arr)):
@@ -89,6 +97,8 @@ def linear_search(arr, target):
     return -1
 
 # -------------------- Graph Algorithms --------------------
+
+
 def dijkstra(graph, start):
     """Dijkstra's Algorithm to find shortest paths from start node."""
     pq = [(0, start)]
@@ -111,10 +121,10 @@ def dijkstra(graph, start):
 
     return distances, previous
 
+
 graph = {
     'A': {'B': 4, 'C': 2},
     'B': {'A': 4, 'C': 5, 'D': 10},
     'C': {'A': 2, 'B': 5, 'D': 3},
     'D': {'B': 10, 'C': 3}
 }
-
