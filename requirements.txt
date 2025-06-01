@@ -1,4 +1,3 @@
-algotoolkit @ file:///D:/AlgoToolkit
 build==1.2.2.post1
 certifi==2024.12.14
 charset-normalizer==3.4.1
