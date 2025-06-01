@@ -30,7 +30,7 @@ jobs:
     - name: Lint with flake8
       run: |
         # Stop the build if there are Python syntax issues or style issues
-        flake8 algotoolkit
+        flake8 AlgoToolkit
 
     - name: Run tests with pytest
       run: |
